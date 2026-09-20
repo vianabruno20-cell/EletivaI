@@ -6,8 +6,8 @@
     <title>Exercício</title>
 </head>
 <body>
-    <h1>Exercício de Exemplo - 3</h1>
-    <form method="post" action="resposta3.php">
+    <h1>Exercício de Exemplo - 2</h1>
+    <form method="post" action="resposta_2.php">
         <label for="valor1">Informe o primeiro valor:</label>
         <input type="number" id="valor1" name="valor1">
         <label for="valor2">Informe o segundo valor:</label>
