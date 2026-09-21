@@ -1,5 +1,4 @@
 <?php
     $valor1 = $_POST["valor1"];
-    $valor2 = $_POST["valor2"];
-    $soma = $valor1 + $valor2;
-    echo "O valor da soma é: $soma";
+    $conversao = ($valor1 -32) * (5/9);
+    echo "A temperatura convertida em Celsius é: $conversao";

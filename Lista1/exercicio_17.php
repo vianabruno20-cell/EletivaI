@@ -6,12 +6,14 @@
     <title>Exercício</title>
 </head>
 <body>
-    <h1>Exercício de Exemplo</h1>
-    <form method="post" action="resposta.php">
-        <label for="valor1">Informe o primeiro valor:</label>
+    <h1>Exercício 17</h1>
+    <form method="post" action="resposta_17.php">
+        <label for="valor1">Informe o montante:</label>
         <input type="number" id="valor1" name="valor1">
-        <label for="valor2">Informe o segundo valor:</label>
+        <label for="valor2">Informe a taxa de juros:</label>
         <input type="number" id="valor2" name="valor2">
+        <label for="valor3">Informe o período:</label>
+        <input type="number" id="valor3" name="valor3">
         <button tupe="submit">Enviar</button>
     </form>
 </body>

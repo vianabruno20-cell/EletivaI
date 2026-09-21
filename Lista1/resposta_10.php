@@ -1,5 +1,5 @@
 <?php
     $valor1 = $_POST["valor1"];
-    $valor2 = $_POST["valor2"];
-    $soma = $valor1 + $valor2;
-    echo "O valor da soma é: $soma";
+
+    $perimetro = (2 * 3.14) * $valor1;
+    echo "O valor do perímetro do circulo é: $perimetro";

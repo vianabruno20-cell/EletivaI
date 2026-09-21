@@ -1,5 +1,8 @@
 <?php
     $valor1 = $_POST["valor1"];
-    $valor2 = $_POST["valor2"];
-    $soma = $valor1 + $valor2;
-    echo "O valor da soma é: $soma";
+
+    $horas = $valor1 * 24 ;
+    $minutos = $valor1 * 24 * 60 ;
+    $segundos = $valor1 * 24 * 60 * 60 ;
+    
+    echo "Horas: $horas <br> Minutos: $minutos <br> Segundos: $segundos";

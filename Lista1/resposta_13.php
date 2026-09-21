@@ -1,5 +1,5 @@
 <?php
     $valor1 = $_POST["valor1"];
-    $valor2 = $_POST["valor2"];
-    $soma = $valor1 + $valor2;
-    echo "O valor da soma é: $soma";
+
+    $conversao = $valor1 * 0.621371;
+    echo "O $valor1 convertido em milhas é: $conversao";

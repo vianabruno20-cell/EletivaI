@@ -6,12 +6,12 @@
     <title>Exercício</title>
 </head>
 <body>
-    <h1>Exercício de Exemplo</h1>
-    <form method="post" action="resposta.php">
-        <label for="valor1">Informe o primeiro valor:</label>
-        <input type="number" id="valor1" name="valor1">
-        <label for="valor2">Informe o segundo valor:</label>
-        <input type="number" id="valor2" name="valor2">
+    <h1>Exercício 14</h1>
+    <form method="post" action="resposta_14.php">
+        <label for="valor1">Informe o peso(kg) para cálculo de IMC:</label>
+        <input type="number" id="valor1" name="valor1" step="any">
+        <label for="valor2">Informe o altura(m) para cálculo de IMC:</label>
+        <input type="number" id="valor2" name="valor2" step="any">
         <button tupe="submit">Enviar</button>
     </form>
 </body>

@@ -1,5 +1,5 @@
 <?php
     $valor1 = $_POST["valor1"];
-    $valor2 = $_POST["valor2"];
-    $soma = $valor1 + $valor2;
-    echo "O valor da soma é: $soma";
+
+    $area = 3.14 * ($valor1 ** 2) ;
+    echo "A área do círculo é: $area";
