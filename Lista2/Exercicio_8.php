@@ -7,8 +7,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body> 
-<h1>Exercício 6</h1>
-<form method="post" action="exercicio_6.php">
+<h1>Exercício 8</h1>
+<form method="post" action="exercicio_8.php">
 <div class="mb-3">
               <label for="valor1" class="form-label">Digite um número: </label>
               <input type="number" id="valor1" name="valor1" class="form-control" required="">
@@ -19,14 +19,13 @@
 <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $valor1 = $_POST['valor1'] ?? 0;
-        $i = 1;
-        $soma = 0;
-    while($i <= $valor1)
+        $fatorial = 1;
+
+    for($i = $valor1; $i > 0; $i--)
         {
-        $soma += $i; 
-        $i++;
+        $fatorial *= $i;         
         }
-    echo "<p> A soma de todos os valores de 1 a $valor1 é: $soma</p>";
+    echo "<p> $valor1! (fatorial) é igual a: $fatorial</p>";
     }
 ?>
 
