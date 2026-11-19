@@ -1,9 +1,11 @@
 <?php
+require_once("conexao.php");
+$id = $_GET['id'] ?? 0;
 
-    require_once("conexao.php");
-    $id= $_GET['id'];
-    $sql = "DELETE FROM alunos WHERE id = :id";
-    $resultado = $con->prepare($sql);
-    $resultado->bindParam(":id", $id);
-    $resultado->execute();
-    header("Location: index.php");
+$stmt = $con->prepare("DELETE FROM pacientes WHERE id = :id");
+$stmt->bindParam(":id", $id);
+$stmt->execute();
+
+header("Location: index_pacientes.php");
+exit;
+?>
